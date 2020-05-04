@@ -16,8 +16,9 @@ const showBookResults = (allResults) => {
         console.log(book)
 
         html += `
-  
-    <hr>
+  <hr>
+         <div class="container">
+  <div class="row">
     <div class="col-sm-2 p-2 text-secondary text-center">
       <span id="text-center">Language: ${book.volumeInfo.language}</span>
     </div>
@@ -30,6 +31,8 @@ const showBookResults = (allResults) => {
     <div class="col-sm-4 p-2 text-center text-secondary">
       <span id="text-center">Published Date: ${book.volumeInfo.publishedDate}</span>
     </div>
+  </div>
+  </div>
          `
     })
     results.innerHTML = html;
