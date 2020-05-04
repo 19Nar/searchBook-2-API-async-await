@@ -9,10 +9,16 @@
 
 #results {
     background-color: transparent;
+    z-index: -1;
+    margin-top: 200px;
 }
 
-img {
+#backgroundCover {
     height: 200px;
+    background-image: url("../background.jpeg");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
 }
 *
 {
