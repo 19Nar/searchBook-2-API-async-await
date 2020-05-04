@@ -18,8 +18,7 @@ const showBookResults = (allResults) => {
         html += `
   
     <hr>
-    <br><br><br>
-         <div class="container">
+   <div class="container">
   <div class="row">
     <div class="col-sm-2 p-2 text-secondary text-center">
       <span id="text-center">Language: ${book.volumeInfo.language}</span>
