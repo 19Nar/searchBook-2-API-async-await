@@ -29,6 +29,9 @@ const showBookResults = (allResults) => {
       <span id="text-center">Category: ${book.volumeInfo.categories} </span>
     </div>
     <div class="col-sm-4 p-2 text-center text-secondary">
+      <span id="text-center">Category: ${book.volumeInfo.authors} </span>
+    </div>
+    <div class="col-sm-4 p-2 text-center text-secondary">
       <span id="text-center">Published Date: ${book.volumeInfo.publishedDate}</span>
     </div>
   </div>
